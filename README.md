@@ -1,7 +1,7 @@
 
 # Job Application Portal – REST API (Node.js)
 
-## 📌 Project Overview
+##  Project Overview
 The **Job Application Portal** is a RESTful API built using **Node.js and Express.js** that allows candidates to:
 - Register and log in securely using JWT authentication
 - View available job listings
@@ -13,7 +13,7 @@ This project is designed for **backend interview evaluation** and demonstrates c
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose)
 - **Authentication:** JWT (JSON Web Tokens)
@@ -22,7 +22,7 @@ This project is designed for **backend interview evaluation** and demonstrates c
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 job-application-portal/
 │
 ├── config/
@@ -74,7 +74,7 @@ Server will run at:
 
 http://localhost:5002
 
-🔐 Authentication (JWT)
+ Authentication (JWT)
 
 User logs in and receives a JWT token
 
@@ -82,8 +82,8 @@ Token must be passed in headers for protected APIs
 
 Authorization: Bearer <JWT_TOKEN>
 
-📡 API Endpoints Documentation
-🔹 Authentication APIs
+ API Endpoints Documentation
+ Authentication APIs
 1.Register User
 POST /api/auth/register
 
@@ -127,7 +127,7 @@ Response
   "token": "jwt_token_here"
 }
 
-🔹 Job APIs
+ Job APIs
 1.Seed Sample Jobs
 POST /api/jobs/seed
 
@@ -160,7 +160,7 @@ Response
   }
 ]
 
-🔹 Job Application APIs
+ Job Application APIs
 1.Apply for a Job
 POST /api/applications/apply
 
